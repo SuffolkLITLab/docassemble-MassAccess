@@ -43,9 +43,9 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.MassAccess',
-      version='0.0.4.1',
+      version='0.1.0',
       description=('A docassemble project using the AssemblyLine package in combination with the ALMassachusetts package.'),
-      long_description='# docassemble.MassAccess\r\n\r\nA docassemble project using the AssemblyLine package in combination with the ALMassachusetts package.\r\n\r\n## Author\r\n\r\nmb.restless.tech@gmail.com\r\n\r\n',
+      long_description='# docassemble.MassAccess\r\n\r\nThis package contains the ',
       long_description_content_type='text/markdown',
       author='MassAccess',
       author_email='MassAccess@example.com',

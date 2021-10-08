@@ -54,3 +54,8 @@ content: |
   [Suffolk Legal Innovation and Technology Lab](https://suffolklitlab.org)
   and open source contributors under the [MIT License](https://opensource.org/licenses/MIT).
   [:fab-fa-github: View code on GitHub](${ github_url }). 
+---
+code: |
+  feedback_form = "docassemble.MassAccess:feedback.yml"  
+  
+  
