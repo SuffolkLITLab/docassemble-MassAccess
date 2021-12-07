@@ -17,18 +17,6 @@ code: |
 objects:
   - al_logo: DAStaticFile.using(filename="lit_logo_light.png")
 ---
-default screen parts:
-  logo: |
-    <div class="title-container">
-      <div class="al-logo">
-        <img src="${ al_logo.url_for() }" height="40px"/>
-      </div>
-      <div class="al-title">
-        <div class="title-row-1">${ AL_ORGANIZATION_TITLE }</div>
-        <div class="title-row-2">${ interview_short_title }</div>
-      </div>
-    </div>    
----
 features:
   question help button: True
   question back button: True
