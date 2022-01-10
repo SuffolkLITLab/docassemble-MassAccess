@@ -53,7 +53,7 @@ setup(name='docassemble.MassAccess',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=[],
+      install_requires=['docassemble-ALMassachusetts', 'docassemble-GithubFeedbackForm'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/MassAccess/', package='docassemble.MassAccess'),
      )
