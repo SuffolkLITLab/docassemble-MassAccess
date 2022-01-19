@@ -1,0 +1,12 @@
+<!-- Add the following to the DA config: 
+favicon mask color: "#5bbad5"
+favicon theme color: "#ffffff"-->
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/mstile-150x150.png?v=2"/>
+            <TileColor>#da532c</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
