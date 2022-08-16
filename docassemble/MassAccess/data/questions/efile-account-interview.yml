@@ -1,0 +1,13 @@
+---
+include:
+  - docassemble.AssemblyLine:assembly_line.yml 
+  - docassemble.EFSPIntegration:unauthenticated_interview.yml
+  - massaccess.yml
+---
+metadata:
+  title: |
+    eFileMA Account Management
+---
+code: |
+  jurisdiction_id = 'massachusetts'
+---
