@@ -53,7 +53,7 @@ setup(name='docassemble.MassAccess',
       url='https://suffolklitlab.org/docassemble-AssemblyLine-documentation/docs',
       packages=find_packages(),
       namespace_packages=['docassemble'],
-      install_requires=['docassemble.ALMassachusetts>=0.1.0', 'docassemble.GithubFeedbackForm>=0.2.0', 'docassemble.EFSPIntegration>=1.0.0rc1'],
+      install_requires=['docassemble.ALMassachusetts>=0.1.2', 'docassemble.GithubFeedbackForm>=0.2.0'],
       zip_safe=False,
       package_data=find_package_data(where='docassemble/MassAccess/', package='docassemble.MassAccess'),
      )
