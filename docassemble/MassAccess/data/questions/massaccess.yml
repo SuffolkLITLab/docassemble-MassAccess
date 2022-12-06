@@ -18,7 +18,7 @@ objects:
   - al_logo: DAStaticFile.using(filename="lit_logo_light.png")
 ---
 code: |
-  al_logo.alt_text = "Home - Logo for CourtFormsOnline.org"
+  al_logo.alt_text = "Home - CourtFormsOnline.org"
 ---
 features:
   question help button: True
