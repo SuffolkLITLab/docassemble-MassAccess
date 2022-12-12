@@ -1,6 +1,7 @@
 ---
 include:
   - docassemble.ALMassachusetts:al_massachusetts.yml
+  - docassemble.ALToolbox:display_template.yml
 ---  
 metadata:
   title: |
