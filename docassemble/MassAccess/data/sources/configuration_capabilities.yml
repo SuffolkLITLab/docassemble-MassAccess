@@ -1,0 +1,8 @@
+package name: MassAccess Choices
+organization_choices:
+  - description: MassAccess
+    dependency: "docassemble.MassAccess"
+    include_name: "docassemble.MassAccess:massaccess.yml"
+    state: MA
+    country: US
+    default: True
