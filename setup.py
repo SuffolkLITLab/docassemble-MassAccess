@@ -43,7 +43,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.MassAccess',
-      version='0.4.0',
+      version='0.4.1',
       description=('A docassemble project using the AssemblyLine package in combination with the ALMassachusetts package.'),
       long_description='# docassemble.MassAccess\r\n\r\nBranding for the CourtFormsOnline.org website; implementation of \r\nhttps://github.com/suffolklitlab/docassemble-AssemblyLine',
       long_description_content_type='text/markdown',
