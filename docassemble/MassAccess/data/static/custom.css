@@ -1,0 +1,91 @@
+/* Header */
+.navbar.bg-dark {
+  background-color: var(--suffolk-blue) !important;
+}
+
+.al-title {
+  color: var(--white);
+  
+  .title-row-1 {
+    color: var(--suffolk-gold);
+  }
+}
+
+.nav-link {
+  color: var(--bs-nav-link-color);
+
+  &:hover {
+    color: var(--bs-nav-link-hover-color);
+  }
+}
+
+/* Navigation */
+
+.nav-pills .nav-link.active {
+  border-radius: var(--bs-btn-border-radius);
+  color: var(--bs-link-color-rgb);
+  background-color: rgba(var(--bs-primary-rgb), .1);
+}
+
+/* datatype: file */
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-radius: 0;
+}
+
+/* Elements */
+
+a {
+  text-decoration: underline;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: 0 0 0 1px rgba(21, 40, 75, .25);
+}
+
+.al-logo img {
+  max-height: 40px;
+}
+
+.al-title {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.da-pad-for-navbar {
+    padding-top: 70px;
+}
+
+.da-top-for-navbar {
+    top: 70px;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: .75em;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+footer a {
+  color: var(--bs-link-color-rgb);
+}
+
+[data-bs-theme=dark] footer a {
+  color: var(--bs-link-color-rgb);
+}

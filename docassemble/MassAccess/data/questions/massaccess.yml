@@ -16,7 +16,7 @@ code: |
   AL_ORGANIZATION_TITLE = "CourtFormsOnline"
 ---
 objects:
-  - al_logo: DAStaticFile.using(filename="lit_logo_light.png")
+  - al_logo: DAStaticFile.using(filename="dal-favicon.png")
 ---
 code: |
   al_logo.alt_text = ""
@@ -25,7 +25,10 @@ features:
   question help button: True
   question back button: True
   progress bar: True
-  css: colors.css
+  bootstrap theme: bootstrap-theme.css
+  css:
+    - variables.css
+    - custom.css
 ---
 event: about_this_interview
 id: about AssemblyLine project
