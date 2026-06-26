@@ -25,10 +25,10 @@ mandatory: true
 code:
   text_field
 ---
+id: theme-test
 question: Theme test
 fields:
   - Text field: text_field
-  - no label: no_label
   - Textarea: textarea
     input type: area
   - Label above textarea: label_above_textarea
